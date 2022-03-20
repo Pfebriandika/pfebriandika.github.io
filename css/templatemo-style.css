@@ -156,7 +156,7 @@ hr {
 
 /* START PORTFOLIO */
 .tm-portfolio {
-  background: #f8f8f8;
+  background: url('../images/aaa.jpg');
   padding-top: 80px;
 }
 .tm-portfolio .container {
