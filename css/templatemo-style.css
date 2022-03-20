@@ -10,7 +10,7 @@ body {
   background: #ffffff;
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
-  color: #606060;
+  color: #535252;
   position: relative;
 }
 html, body {
@@ -81,11 +81,11 @@ hr {
 
 /* START HOME */
 .templatemo-home {
-  background: url('../images/home-bg.jpg');
+  background: url('../images/Home.gif');
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
-  color: #5f5f5f;
+  color: #ffffff;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -324,7 +324,7 @@ hr {
 
 /* START ABOUT */
 .tm-about {
-  background: url('../images/H1.JPG');
+  background: url('../images/Das.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
