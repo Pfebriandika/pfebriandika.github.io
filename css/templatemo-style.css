@@ -81,7 +81,7 @@ hr {
 
 /* START HOME */
 .templatemo-home {
-  background: url('../images/Home.gif');
+  background: url('../images/black.gif');
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -156,7 +156,10 @@ hr {
 
 /* START PORTFOLIO */
 .tm-portfolio {
-  background: url('../images/aaa.jpg');
+  background: url('../images/porrr.gif');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
   padding-top: 80px;
 }
 .tm-portfolio .container {
