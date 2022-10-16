@@ -1,1176 +1,557 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta charset="utf-8">
+    <title>Portofolio - P.F</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
 
+    <!-- STYLESHEETS -->
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 
-	<title>Resume | Portofolio P.F</title>
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
 
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 
-	<!--=====================================================
-			CSS Stylesheets
-		=====================================================-->
-	<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
-	<link rel='stylesheet' type='text/css' href='bootstrap/css/bootstrap.min.css'>
-	<link rel='stylesheet' type='text/css' href='css/linea.css'>
-	<link rel='stylesheet' type='text/css' href='css/ionicons.min.css'>
-	<link rel='stylesheet' type='text/css' href='css/owl.carousel.css'>
-	<link rel='stylesheet' type='text/css' href='css/magnific-popup.css'>
-	<link rel='stylesheet' type='text/css' href='css/style.css'>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
-
-
-	<!--=====================================================
-			Preloader
-		=====================================================-->
-	<div id='preloader'>
-		<div class='loader'></div>
-		<div class='left'></div>
-		<div class='right'></div>
-	</div>
-
-
-	<div class='main-content'>
-
-		<!--=====================================================
-				Page Borders
-			=====================================================-->
-		<div class='page-border border-left'></div>
-		<div class='page-border border-right'></div>
-		<div class='page-border border-top'></div>
-		<div class='page-border border-bottom'></div>
-
-
-
-		<!--=====================================================
-				Menu Button
-			=====================================================-->
-		<a href='#' class='menu-btn'>
-			<span class='lines'>
-				<span class='l1'></span>
-				<span class='l2'></span>
-				<span class='l3'></span>
-			</span>
-		</a>
-
-
-		<!--=====================================================
-				Menu
-			=====================================================-->
-		<div class='menu'>
-			<div class='inner'>
-				<ul class='menu-items'>
-
-					<li>
-						<a href='#' class='section-toggle' data-section='intro'>
-							Home
-						</a>
-					</li>
-
-					<li>
-						<a href='#about' class='section-toggle' data-section='about'>
-							About
-						</a>
-					</li>
-
-					<li>
-						<a href='#resume' class='section-toggle' data-section='resume'>
-							Resume
-						</a>
-					</li>
-
-					<li>
-						<a href='#portfolio' class='section-toggle' data-section='portfolio'>
-							Portfolio
-						</a>
-					</li>
-
-
-					<li>
-						<a href='#contact' class='section-toggle' data-section='contact'>
-							Contact
-						</a>
-					</li>
-
-
-				</ul>
-			</div>
-		</div>
-
-		<div class='animation-block'></div>
-
-
-		<!--=====================================================
-				Sections
-			=====================================================-->
-		<div class='sections'>
-
-			<!--=====================================================
-					Main Section
-				=====================================================-->
-			<section id='intro' class='section section-main active'>
-
-				<div class='container-fluid'>
-
-					<div class='v-align'>
-						<div class='inner'>
-							<div class='intro-text'>
-								<img src="img/fotokita.png" width="330px" class="fluid-img" alt="portfolio img">
-
-								<h1>I'm Prayoga Febriandika</h1>
-
-								<p>
-									Web Designer, Web Developer, Front End Developer - PHP & HTML, Desain Grafis, IT Support
-								</p>
-
-								<div class='intro-btns'>
-
-									<a href='#about' class='btn-custom section-toggle' data-section='about'>
-										About Me
-									</a>
-
-									<a href='#contact' class='btn-custom section-toggle' data-section='contact'>
-										Hire Me
-									</a>
-
-								</div>
-
-							</div>
-						</div>
-
-					</div>
-
-				</div>
-
-			</section>
-
-
-			<!--=====================================================
-					About Section
-				=====================================================-->
-			<section id='about' class='section about-section border-d'>
-
-				<div class='section-block about-block'>
-					<div class='container-fluid'>
-
-						<div class='section-header'>
-							<h2>
-								<strong class='color'>About</strong> Me
-							</h2>
-						</div>
-
-						<div class='row'>
-
-							<div class='col-md-4'>
-
-								<ul class='info-list'>
-
-									<li>
-										<strong>Nama:</strong>
-										<span>Prayoga Febriandika</span>
-									</li>
-
-									<li>
-										<strong>Tanggal Lahir:</strong>
-										<span>1 Februari 1996</span>
-									</li>
-
-									<li>
-										<strong>Umur:</strong>
-										<span>26 Tahun</span>
-									</li>
-
-									<li>
-										<strong>No. Hp:</strong>
-										<span>+6282 33393 1433</span>
-									</li>
-
-									<li>
-										<strong>Email:</strong>
-										<span>Pfebriandika@gmail.com</span>
-									</li>
-
-
-
-								</ul>
-
-							</div>
-
-							<div class='col-md-8'>
-
-								<div class='about-text'>
-									<p>
-										Alumni Universitas Brawijaya Malang dengan jurusan Teknik Komputer (2014-2018) | IPK
-										3,12. Memiliki pengalaman bekerja sebelum lulus kuliah di salah satu startup di Jakarta bagian
-										aplikasi
-										web/desain selama 3 bulan dengan jabatan IT Support dan Desainer, serta setelah lulus kuliah pernah
-										bekerja
-										di Kementerian Agraria dana Tata Ruang/Badan Pertanahan Nasional dengan jabatan Operator Komputer
-										selama 3
-										tahun (2019-2021) dan saat ini bekerja di PT Tagima Indonesia (Perusahaan dibidang jasa pembuatan web aplikasi) dari Februari 2022 sampai dengan sekarang.
-									</p>
-
-								</div>
-
-								<div class='about-btns'>
-
-									<a href='img/CV_Pra.jpg' target="_blank" class='btn-custom btn-color'>
-										Download CV
-									</a>
-
-									<a href='https://api.whatsapp.com/send?phone=6282333931433&text=Hallo Prayoga Febriandika' class='btn-custom btn-color'>
-										Hire Me
-									</a>
-
-								</div>
-
-							</div>
-
-						</div>
-
-					</div>
-				</div>
-
-				<div class='section-block skills-block'>
-					<div class='container-fluid'>
-
-						<div class='section-header'>
-
-							<h2>
-								My <strong class='color'>Skills</strong>
-							</h2>
-
-						</div>
-
-						<div class='row'>
-
-							<div class='col-md-6'>
-
-								<div class='skill'>
-
-									<h4>php</h4>
-
-									<div class='bar'>
-										<div class='percent' style='width:80%;'></div>
-									</div>
-
-								</div>
-
-
-								<div class='skill'>
-
-									<h4>html</h4>
-
-									<div class='bar'>
-										<div class='percent' style='width:90%;'></div>
-									</div>
-
-								</div>
-
-
-								<div class='skill'>
-
-									<h4>MICROSOFT POWER BI</h4>
-
-									<div class='bar'>
-										<div class='percent' style='width:70%;'></div>
-									</div>
-
-								</div>
-
-							</div>
-
-							<div class='col-md-6'>
-
-								<div class='skill'>
-
-									<h4>PHOTOSHOP</h4>
-
-									<div class='bar'>
-										<div class='percent' style='width:90%;'></div>
-									</div>
-
-								</div>
-
-
-								<div class='skill'>
-
-									<h4>FILMORA</h4>
-
-									<div class='bar'>
-										<div class='percent' style='width:75%;'></div>
-									</div>
-
-								</div>
-
-
-								<div class='skill'>
-
-									<h4>MICROSOFT OFFICE</h4>
-
-									<div class='bar'>
-										<div class='percent' style='width:90%;'></div>
-									</div>
-
-								</div>
-
-							</div>
-
-						</div>
-
-
-
-					</div>
-					<br>
-					<br><br>
-					<div class='intro-btns'>
-
-						<a href='#resume' class='section-toggle btn-custom btn-color' data-section='resume'>
-							Resume
-						</a>
-
-					</div>
-				</div>
-
-			</section>
-
-
-			<!--=====================================================
-					Resume Section
-				=====================================================-->
-			<section id='resume' class='section resume-section border-d'>
-
-				<div class='section-block timeline-block'>
-
-					<div class='container-fluid'>
-
-						<div class='section-header'>
-
-							<h2>My <strong class='color'>Education</strong></h2>
-
-						</div>
-
-						<ul class='timeline'>
-
-							<li>
-
-								<div class='timeline-content'>
-
-									<h4>SMPN 3 Wates</h4>
-
-									<em>
-										<span>Kabupaten Kediri</span>
-									</em>
-
-									<p>
-										2010-2012
-									</p>
-
-								</div>
-
-							</li>
-
-							<li>
-
-								<div class='timeline-content'>
-
-									<h4>SMAN 1 Wates</h4>
-
-									<em>
-										<span>Kabupaten Kediri</span>
-									</em>
-
-									<p>
-										2012-2014
-									</p>
-
-								</div>
-
-							</li>
-
-							<li>
-
-								<div class='timeline-content'>
-
-									<h4>Universitas Brawijaya</h4>
-
-									<em>
-										<span>Kota Malang</span>
-									</em>
-
-									<p>
-										Bachelor | 2014-2018
-									</p>
-
-								</div>
-
-							</li>
-
-
-
-						</ul>
-
-					</div>
-
-				</div>
-
-				<div class='section-block timeline-block'>
-
-					<div class='container-fluid'>
-
-						<div class='section-header'>
-
-							<h2>My <strong class='color'>Experience</strong></h2>
-
-						</div>
-
-						<ul class='timeline'>
-
-							<li>
-
-								<div class='timeline-content'>
-
-									<h4>PT.Krakatau Steel (Persero) Tbk.</h4>
-
-									<em>
-										<span>Cilegon</span>
-									</em>
-
-									<p>
-										Internship | 10 Juli - 10 September 2017
-									</p>
-
-								</div>
-
-							</li>
-
-							<li>
-
-								<div class='timeline-content'>
-
-									<h4>CV. HelpCode</h4>
-
-									<em>
-										<span>Jakarta Selatan</span>
-									</em>
-
-									<p>
-										IT Support & Desainer | 1 Oktober - 31 Desember 2018
-									</p>
-
-								</div>
-
-							</li>
-
-							<li>
-
-								<div class='timeline-content'>
-
-									<h4>Kementerian Agraria dan Tata Ruang/Badan Pertanahan Nasional</h4>
-
-									<em>
-										<span>Jakarta Selatan</span>
-									</em>
-
-									<p>
-										Operator Komputer (PPNPN) | 2 Januari 2019 - 31 Desember 2021
-									</p>
-
-								</div>
-
-							</li>
-
-							<li>
-
-								<div class='timeline-content'>
-
-									<h4>PT. Tagima Teknologi</h4>
-
-									<em>
-										<span>DKI Jakarta</span>
-									</em>
-
-									<p>
-										IT Development | 2 Februari 2022 - Now
-									</p>
-
-								</div>
-
-							</li>
-
-
-
-						</ul>
-
-					</div>
-					<br>
-					<br><br>
-					<div class='intro-btns'>
-
-						<a href='#portfolio' class='section-toggle btn-custom btn-color' data-section='portfolio'>
-							Portofolio
-						</a>
-
-					</div>
-
-				</div>
-
-			</section>
-
-
-			<!--=====================================================
-					Portfolio Section
-				=====================================================-->
-			<section id='portfolio' class='section portfolio-section border-d'>
-
-				<div class='section-block portfolio-block'>
-
-					<div class='container-fluid'>
-
-
-						<div class='section-header'>
-							<h2>My <strong class='color'>Works</strong></h2>
-						</div>
-
-						<ul class='portfolio-filters'>
-							<li>
-								<a href='#' class='active' data-group='all'>
-									All
-								</a>
-							</li>
-							<li>
-								<a href='#' data-group='backdrop'>
-									Design/Zoom
-								</a>
-							</li>
-							<li>
-								<a href='#' data-group='web'>
-									Web Information
-								</a>
-							</li>
-							<li>
-								<a href='#' data-group='aplikasi'>
-									Web Application
-								</a>
-							</li>
-							<li>
-								<a href='#' data-group='cover'>
-									Design Cover
-								</a>
-							</li>
-						</ul>
-
-						<ul class='portfolio-items'>
-
-							<li data-groups='["all","backdrop"]'>
-								<div class='inner'>
-									<img src='img/portfolio/Z1.jpg' alt>
-
-									<div class='overlay'>
-
-										<a href='#popup-1' class='view-project'>
-											View Image
-										</a>
-
-										<!--project popup-->
-										<div id='popup-1' class='popup-box zoom-anim-dialog mfp-hide'>
-											<figure>
-
-												<!--project popup image-->
-												<img src='img/portfolio/Z1.jpg' alt>
-
-											</figure>
-											<div class='content'>
-
-												<!--project popup title-->
-												<h4>Kementerian ATR/BPN</h4>
-
-												<!--project popup description-->
-												<p>
-													Evaluasi Barang Persediaan
-												</p>
-
-											</div>
-
-										</div>
-
-									</div>
-
-								</div>
-							</li>
-
-							<li data-groups='["all","backdrop"]'>
-								<div class='inner'>
-									<img src='img/portfolio/Z2.jpg' alt>
-
-									<div class='overlay'>
-
-										<a href='#popup-2' class='view-project'>
-											View Image
-										</a>
-
-										<!--project popup-->
-										<div id='popup-2' class='popup-box zoom-anim-dialog mfp-hide'>
-											<figure>
-
-												<!--project popup image-->
-												<img src='img/portfolio/Z2.jpg' alt>
-
-											</figure>
-											<div class='content'>
-
-												<!--project popup title-->
-												<h4>Kementerian ATR/BPN</h4>
-
-												<!--project popup description-->
-												<p>
-													Penyusunan Rencana Kebutuhan Barang Milik Negara Tahun Anggaran 2021
-												</p>
-
-											</div>
-
-										</div>
-
-									</div>
-
-								</div>
-							</li>
-
-							<li data-groups='["all","backdrop"]'>
-								<div class='inner'>
-									<img src='img/portfolio/Z3.jpg' alt>
-
-									<div class='overlay'>
-
-										<a href='#popup-3' class='view-project'>
-											View Image
-										</a>
-
-										<!--project popup-->
-										<div id='popup-3' class='popup-box zoom-anim-dialog mfp-hide'>
-											<figure>
-
-												<!--project popup image-->
-												<img src='img/portfolio/Z3.jpg' alt>
-
-											</figure>
-											<div class='content'>
-
-												<!--project popup title-->
-												<h4>Kementerian ATR/BPN</h4>
-
-												<!--project popup description-->
-												<p>
-													Pelaporan Opname Fisik Barang Persediaan Semester II Tahun 2021
-												</p>
-
-											</div>
-
-										</div>
-
-									</div>
-
-								</div>
-							</li>
-
-							<li data-groups='["web"]'>
-								<div class='inner'>
-									<img src='img/portfolio/IKARI.png' alt>
-
-									<div class='overlay'>
-
-										<a href='#popup-4' class='view-project'>
-											View Image
-										</a>
-
-										<!--project popup-->
-										<div id='popup-4' class='popup-box zoom-anim-dialog mfp-hide'>
-											<figure>
-
-												<!--project popup image-->
-												<img src='img/portfolio/IKARI.png' alt>
-
-											</figure>
-											<div class='content'>
-
-												<!--project popup title-->
-												<h4>PT.Tagima Indonesia</h4>
-
-												<!--project popup description-->
-												<p>
-													Web Information PT. Inovasi Karya Bangsa Indonesia (Ikari)
-												</p>
-
-											</div>
-
-										</div>
-
-									</div>
-
-								</div>
-							</li>
-
-							<li data-groups='["all","aplikasi"]'>
-								<div class='inner'>
-									<img src='img/portfolio/dkpp.png' alt>
-
-									<div class='overlay'>
-
-										<a href='#popup-5' class='view-project'>
-											View Image
-										</a>
-
-										<!--project popup-->
-										<div id='popup-5' class='popup-box zoom-anim-dialog mfp-hide'>
-											<figure>
-
-												<!--project popup image-->
-												<img src='img/portfolio/dkpp.png' alt>
-
-											</figure>
-											<div class='content'>
-
-												<!--project popup title-->
-												<h4>PT.Tagima Indonesia</h4>
-
-												<!--project popup description-->
-												<p>
-													Aplikasi Penilaian Screening Kenaikan Jabatan (Font End).
-												</p>
-
-											</div>
-
-										</div>
-
-									</div>
-
-								</div>
-							</li>
-
-							<li data-groups='["all","aplikasi"]'>
-								<div class='inner'>
-									<img src='img/portfolio/ykpp.png' alt>
-
-									<div class='overlay'>
-
-										<a href='#popup-6' class='view-project'>
-											View Image
-										</a>
-
-										<!--project popup-->
-										<div id='popup-6' class='popup-box zoom-anim-dialog mfp-hide'>
-											<figure>
-
-												<!--project popup image-->
-												<img src='img/portfolio/ykpp.png' alt>
-
-											</figure>
-											<div class='content'>
-
-												<!--project popup title-->
-												<h4>PT.Tagima Indonesia</h4>
-
-												<!--project popup description-->
-												<p>
-													Aplikasi Pinjaman Internal (Font End).
-												</p>
-
-											</div>
-
-										</div>
-
-									</div>
-
-								</div>
-							</li>
-
-							<li data-groups='["all","aplikasi"]'>
-								<div class='inner'>
-									<img src='img/portfolio/tender.png' alt>
-
-									<div class='overlay'>
-
-										<a href='#popup-7' class='view-project'>
-											View Image
-										</a>
-
-										<!--project popup-->
-										<div id='popup-7' class='popup-box zoom-anim-dialog mfp-hide'>
-											<figure>
-
-												<!--project popup image-->
-												<img src='img/portfolio/tender.png' alt>
-
-											</figure>
-											<div class='content'>
-
-												<!--project popup title-->
-												<h4>PT.Tagima Indonesia</h4>
-
-												<!--project popup description-->
-												<p>
-													Aplikasi Procurement (Tender).
-												</p>
-
-											</div>
-
-										</div>
-
-									</div>
-
-								</div>
-							</li>
-
-
-							<li data-groups='["all","cover"]'>
-								<div class='inner'>
-									<img src='img/portfolio/C1.jpg' alt width="300px">
-
-									<div class='overlay'>
-
-										<a href='#popup-8' class='view-project'>
-											View Image
-										</a>
-
-										<!--project popup-->
-										<div id='popup-8' class='popup-box zoom-anim-dialog mfp-hide'>
-											<figure>
-
-												<!--project popup image-->
-												<img src='img/portfolio/C1.jpg' alt width="450px">
-
-											</figure>
-											<div class='content'>
-
-												<!--project popup title-->
-												<h4>Kementerian ATR/BPN</h4>
-
-												<!--project popup description-->
-												<p>
-													Cover Laporan Barang Milik Negara Kementerian ATR/BPN Tahun Anggaran 2019 Audited Kantor Pusat.
-												</p>
-
-											</div>
-
-										</div>
-
-									</div>
-
-								</div>
-							</li>
-
-							<li data-groups='["all","cover"]'>
-								<div class='inner'>
-									<img src='img/portfolio/C2.jpg' alt width="300px">
-
-									<div class='overlay'>
-
-										<a href='#popup-9' class='view-project'>
-											View Image
-										</a>
-
-										<!--project popup-->
-										<div id='popup-9' class='popup-box zoom-anim-dialog mfp-hide'>
-											<figure>
-
-												<!--project popup image-->
-												<img src='img/portfolio/C2.jpg' alt width="450px">
-
-											</figure>
-											<div class='content'>
-
-												<!--project popup title-->
-												<h4>Kementerian ATR/BPN</h4>
-
-												<!--project popup description-->
-												<p>
-													Cover Laporan Barang Milik Negara Semester II Tahun Anggaran 2019.
-												</p>
-
-											</div>
-
-										</div>
-
-									</div>
-
-								</div>
-							</li>
-
-							<li data-groups='["all","cover"]'>
-								<div class='inner'>
-									<img src='img/portfolio/C3.jpg' alt width="300px">
-
-									<div class='overlay'>
-
-										<a href='#popup-10' class='view-project'>
-											View Image
-										</a>
-
-										<!--project popup-->
-										<div id='popup-10' class='popup-box zoom-anim-dialog mfp-hide'>
-											<figure>
-
-												<!--project popup image-->
-												<img src='img/portfolio/C3.jpg' alt width="450px">
-
-											</figure>
-											<div class='content'>
-
-												<!--project popup title-->
-												<h4>Kementerian ATR/BPN</h4>
-
-												<!--project popup description-->
-												<p>
-													Cover Laporan Barang Milik Negara UAPPB Tahun Anggaran 2019 Eselon I.
-												</p>
-
-											</div>
-
-										</div>
-
-									</div>
-
-								</div>
-							</li>
-
-							<li data-groups='["all","cover"]'>
-								<div class='inner'>
-									<img src='img/portfolio/C4.jpg' alt width="300px">
-
-									<div class='overlay'>
-
-										<a href='#popup-11' class='view-project'>
-											View Image
-										</a>
-
-										<!--project popup-->
-										<div id='popup-11' class='popup-box zoom-anim-dialog mfp-hide'>
-											<figure>
-
-												<!--project popup image-->
-												<img src='img/portfolio/C4.jpg' alt width="450px">
-
-											</figure>
-											<div class='content'>
-
-												<!--project popup title-->
-												<h4>Kementerian ATR/BPN</h4>
-
-												<!--project popup description-->
-												<p>
-													Cover Laporan Barang Milik Negara UAPB Tahun Anggaran 2019 Semester I.
-												</p>
-
-											</div>
-
-										</div>
-
-									</div>
-
-								</div>
-							</li>
-
-							<li data-groups='["all","cover"]'>
-								<div class='inner'>
-									<img src='img/portfolio/C6.jpg' alt width="300px">
-
-									<div class='overlay'>
-
-										<a href='#popup-12' class='view-project'>
-											View Image
-										</a>
-
-										<!--project popup-->
-										<div id='popup-12' class='popup-box zoom-anim-dialog mfp-hide'>
-											<figure>
-
-												<!--project popup image-->
-												<img src='img/portfolio/C6.jpg' alt width="450px">
-
-											</figure>
-											<div class='content'>
-
-												<!--project popup title-->
-												<h4>Kementerian ATR/BPN</h4>
-
-												<!--project popup description-->
-												<p>
-													Cover Laporan Barang Milik Negara UAKPB Tahun Anggaran 2020 Semester I Kantor Pusat.
-												</p>
-
-											</div>
-
-										</div>
-
-									</div>
-
-								</div>
-							</li>
-
-							<li data-groups='["all","cover"]'>
-								<div class='inner'>
-									<img src='img/portfolio/C7.jpg' alt width="300px">
-
-									<div class='overlay'>
-
-										<a href='#popup-13' class='view-project'>
-											View Image
-										</a>
-
-										<!--project popup-->
-										<div id='popup-13' class='popup-box zoom-anim-dialog mfp-hide'>
-											<figure>
-
-												<!--project popup image-->
-												<img src='img/portfolio/C7.jpg' alt width="450px">
-
-											</figure>
-											<div class='content'>
-
-												<!--project popup title-->
-												<h4>Kementerian ATR/BPN</h4>
-
-												<!--project popup description-->
-												<p>
-													Cover Laporan Barang Milik Negara UAKPB Tahun Anggaran 2020 AUDITED.
-												</p>
-
-											</div>
-
-										</div>
-
-									</div>
-
-								</div>
-							</li>
-
-						</ul>
-
-						<br>
-						<br><br>
-						<div class='intro-btns'>
-
-							<a href='#contact' class='section-toggle btn-custom btn-color' data-section='contact'>
-								Contact
-							</a>
-
-						</div>
-					</div>
-
-				</div>
-
-			</section>
-
-
-			<!--=====================================================
-					Contact Section
-				=====================================================-->
-			<section id='contact' class='section contact-section border-d'>
-
-				<div class='section-block contact-block'>
-
-					<div class='container-fluid'>
-
-						<div class='section-header'>
-							<h2>Contact <strong class='color'>Me</strong></h2>
-						</div>
-
-
-						<div class='row'>
-
-							<div class='col-md-8'>
-
-								<div class='contact-form'>
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d987.9666705218665!2d112.10467782919977!3d-7.9089929996439094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2067f3698f28a8ad!2zN8KwNTQnMzIuNCJTIDExMsKwMDYnMTguOCJF!5e0!3m2!1sid!2sid!4v1646578641289!5m2!1sid!2sid" width="90%" height="320" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
-
-								</div>
-
-
-							</div>
-
-							<div class='col-md-4'>
-
-								<div class='contact-info-icons'>
-
-									<div class='contact-info'>
-
-										<i class='ion-ios-location-outline'></i>
-
-										<p>
-											Karang Kliwon, Gadungan,<br>Kec. Wates, Kabupaten Kediri<br>
-											Jawa Timur 64174
-										</p>
-
-									</div>
-
-
-									<div class='contact-info'>
-
-										<i class='ion-ios-telephone-outline'></i>
-
-										<p>
-											<a>+6282 333-931-433</a><br>
-											<a>+6288 905-016-722</a>
-										</p>
-
-									</div>
-
-
-									<div class='contact-info'>
-
-										<i class='ion-android-globe'></i>
-
-										<p>
-											<a href="https://www.instagram.com/prayoga.feb/" target="_blank">Instagram</a>
-											<br>
-											<a href="https://id-id.facebook.com/yogapersikmania" target="_blank">Facebook</a>
-										</p>
-
-									</div>
-
-
-
-
-								</div>
-
-
-
-							</div>
-
-
-						</div>
-
-
-
-					</div>
-
-				</div>
-
-			</section>
-
-		</div>
-
-	</div>
-
-
-	<!--=====================================================
-			JavaScript Files
-		=====================================================-->
-	<script src='js/jquery.min.js'></script>
-	<script src='js/jquery.shuffle.min.js'></script>
-	<script src='js/owl.carousel.min.js'></script>
-	<script src='js/jquery.magnific-popup.min.js'></script>
-	<script src='js/validator.min.js'></script>
-	<script src='js/script.js'></script>
-
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.php" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5"><span class="text-primary">P.F</span></h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#qualification" class="nav-item nav-link">Quality</a>
+                <a href="#skill" class="nav-item nav-link">Skill</a>
+                <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Video Modal Start -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
+                    <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/fotoku.png" alt="">
+                </div>
+                <div class="col-lg-7 text-center text-lg-left">
+                    <h3 class="text-white font-weight-normal mb-3">I'm</h3>
+                    <h2 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">Prayoga Febriandika</h2>
+                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+                    <div class="typed-text d-none">Web Designer, Web Developer, Front End Developer - PHP & HTML, Desain Grafis, IT Support</div>
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                        <a href="#about" class="btn btn-outline-light mr-5">Let's Begin</a>
+                        <a href="img/CV_Pra.jpg" target="_blank" class="btn btn-outline-light mr-5">Download CV</a>
+                        <!-- <button type="button" class="btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
+                            <span></span>
+                        </button>
+                        <h5 class="font-weight-normal text-white m-0 ml-4 d-none d-sm-block">Play Video</h5> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About</h1>
+                <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 pb-4 pb-lg-0">
+                    <img class="img-fluid rounded w-100" src="img/about1.jpg" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <h3 class="mb-4">Web Developer | Front End Developer - PHP & HTML | Desain Grafis | IT Support</h3>
+                    <p>Alumni Universitas Brawijaya Malang dengan jurusan Teknik Komputer (2014-2018) | IPK
+                        3,12. Memiliki pengalaman bekerja sebelum lulus kuliah di salah satu startup di Jakarta bagian
+                        aplikasi
+                        web/desain selama 3 bulan dengan jabatan IT Support dan Desainer, serta setelah lulus kuliah pernah
+                        bekerja
+                        di Kementerian Agraria dana Tata Ruang/Badan Pertanahan Nasional dengan jabatan Operator Komputer
+                        selama 3
+                        tahun (2019-2021).</p>
+                    <div class="row mb-3">
+                        <div class="col-sm-6 py-2">
+                            <h6>Nama: <span class="text-secondary">Prayoga Febriandika</span></h6>
+                        </div>
+                        <div class="col-sm-6 py-2">
+                            <h6>Tanggal Lahir: <span class="text-secondary">1 Februari 1996</span></h6>
+                        </div>
+                        <div class="col-sm-6 py-2">
+                            <h6>No. Hp: <span class="text-secondary">+6282 33393 1433</span></h6>
+                        </div>
+                        <div class="col-sm-6 py-2">
+                            <h6>Email: <span class="text-secondary">Pfebriandika@gmail.com</span></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Qualification Start -->
+    <div class="container-fluid py-5" id="qualification">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Quality</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Education & Expericence</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3 class="mb-4">My Education</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">S1</h5>
+                            <p class="mb-2"><strong>Universitas Brawijaya</strong> | <small>2014 - 2018</small></p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">SMA</h5>
+                            <p class="mb-2"><strong>SMA Negeri I Wates, Kediri</strong> | <small>2012 - 2014</small></p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">SMP</h5>
+                            <p class="mb-2"><strong>SMP Negeri III Wates, Kediri</strong> | <small>2010 - 2012</small></p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">SD</h5>
+                            <p class="mb-2"><strong>SN Negeri I Blimbinggede, Bojonegoro</strong> | <small>2004 - 2010</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4">My Expericence</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">IT Development</h5>
+                            <p class="mb-2"><strong>PT. Tagima Teknologi</strong> | <small>Feb 2022 - Now</small></p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Operator Komputer (PPNPN)</h5>
+                            <p class="mb-2"><strong>Kementerian Agraria dan Tata Ruang/BPN</strong> | <small>Jan 2019 - Des 2021</small></p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">IT Support</h5>
+                            <p class="mb-2"><strong>CV. Helpcode</strong> | <small>Okt 2018 - Des 2018</small></p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Internship</h5>
+                            <p class="mb-2"><strong>PT. Krakatau Steel (Persero) Tbk.</strong> | <small>Jul 2017 - Sept 2017</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Qualification End -->
+
+
+    <!-- Skill Start -->
+    <div class="container-fluid py-5" id="skill">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center mb-5">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Skills</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="skill mb-5">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">PHP (CodeIgniter)</h6>
+                            <h6 class="font-weight-bold">80%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-5">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">HTML</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-5">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Microsoft Power BI</h6>
+                            <h6 class="font-weight-bold">70%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill mb-5">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Photoshop</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-5">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Filmora</h6>
+                            <h6 class="font-weight-bold">75%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-5">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Microsoft Office</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br><br><br>
+            </div>
+        </div>
+    </div>
+    <!-- Skill End -->
+
+
+    <!-- Portfolio Start -->
+    <div class="container-fluid pt-5 pb-3" id="portfolio">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Portfolio</h1>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mb-2">
+                    <ul class="list-inline mb-4" id="portfolio-flters">
+                        <li class="btn btn-sm btn-outline-primary m-1 active" data-filter="*">All</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Backdrop Design/Zoom</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Web Design</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Application (Front End)</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".five">Cover Desain</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio-container">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/projects/Z1.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/projects/Z1.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card text-center" style="background-color: #b4f5e3;">
+                        <h3 class="portfolio-item-title">ATR/BPN</h3>
+                        <p>Evaluasi Barang Persediaan.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/projects/Z2.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/projects/Z2.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card text-center" style="background-color: #b4f5e3;">
+                        <h3 class="portfolio-item-title">ATR/BPN</h3>
+                        <p>Penyusunan RKBMN Thn Anggaran 2021.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/projects/Z3.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/projects/Z3.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card text-center" style="background-color: #b4f5e3;">
+                        <h3 class="portfolio-item-title">ATR/BPN</h3>
+                        <p>Pelaporan Opsik Persediaan Semester II.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/projects/IKARI.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/projects/IKARI.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card text-center" style="background-color: #b4f5e3;">
+                        <h3 class="portfolio-item-title">Ikari Indonesian</h3>
+                        <p>Website</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/projects/ykpp.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/projects/ykpp.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card text-center" style="background-color: #b4f5e3;">
+                        <h3 class="portfolio-item-title">Tagima Tegnology</h3>
+                        <p>Aplikasi Pinjaman (Font End).</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/projects/dkpp.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/projects/dkpp.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card text-center" style="background-color: #b4f5e3;">
+                        <h3 class="portfolio-item-title">Tagima Tegnology</h3>
+                        <p>Aplikasi Penilaian Screening Kenaikan Jabatan (Font End).</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item five">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/projects/C1.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/projects/C1.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card text-center" style="background-color: #b4f5e3;">
+                        <h3 class="portfolio-item-title">ATR/BPN</h3>
+                        <p>Cover Laporan BMN Tahun Anggaran 2019 Audited Kantor Pusat.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item five">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/projects/C2.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/projects/C2.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card text-center" style="background-color: #b4f5e3;">
+                        <h3 class="portfolio-item-title">ATR/BPN</h3>
+                        <p>Cover Laporan BMN Semester II Tahun Anggaran 2019.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item five">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/projects/C3.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/projects/C3.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card text-center" style="background-color: #b4f5e3;">
+                        <h3 class="portfolio-item-title">ATR/BPN</h3>
+                        <p>Cover Laporan BMN UAPPB Tahun Anggaran 2019 Eselon I.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item five">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/projects/C4.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/projects/C4.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card text-center" style="background-color: #b4f5e3;">
+                        <h3 class="portfolio-item-title">ATR/BPN</h3>
+                        <p>Cover Laporan BMN UAPB Tahun Anggaran 2019 Semester I.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item five">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/projects/C6.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/projects/C6.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="card text-center mt-1" style="background-color: #b4f5e3;">
+                        <h3 class="portfolio-item-title">ATR/BPN</h3>
+                        <p>Cover Laporan BMN UAKPB Tahun Anggaran 2020 Semester I Kantor Pusat.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item five">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/projects/C7.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/projects/C7.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card text-center" style="background-color: #b4f5e3;">
+                        <h3 class="portfolio-item-title">ATR/BPN</h3>
+                        <p>Cover Laporan BMN UAKPB Tahun Anggaran 2020 AUDITED.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio End -->
+
+
+    <!-- Contact Start -->
+    <div class="container-fluid py-5" id="contact">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-form text-center">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="form-row">
+                                <div class="control-group col-sm-6">
+                                    <input type="text" class="form-control p-4" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group col-sm-6">
+                                    <input type="email" class="form-control p-4" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
+                                    Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-primary text-white mt-3 py-3 px-sm-3 px-md-5">
+        <div class="container text-center">
+            <div class="d-flex justify-content-center mb-4">
+                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-light btn-social" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="m-0">&copy; <a class="text-white font-weight-bold text-primary" href="#">Created with: Prayoga Febriandika</a></p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
