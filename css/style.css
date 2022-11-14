@@ -589,6 +589,7 @@ body.section-switching.up .animation-block {
 
 .section-main,
 .section-main>.container-fluid {
+	background: #303F9F;
 	height: 100%;
 	width: 100%;
 }
