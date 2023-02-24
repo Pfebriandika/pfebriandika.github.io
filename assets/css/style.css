@@ -524,6 +524,10 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+#resume {
+  background: url("../img/bg-resume.jpg") top right no-repeat;
+}
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -1172,7 +1176,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #BFEAF5;
+  background: url("../img/subscribe-bg1.png") top right no-repeat;
   color: #45505b;
   font-size: 14px;
   text-align: center;
